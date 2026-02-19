@@ -1,0 +1,312 @@
+2026-02-20 03:11:55,950 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:11:55,965 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:11:55,971 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:11:55,981 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (GATGA)
+2026-02-20 03:11:55,982 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr1:97981395
+2026-02-20 03:11:55,982 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18130918
+2026-02-20 03:11:55,982 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18133885
+2026-02-20 03:11:55,982 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:11:55,985 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (G)
+2026-02-20 03:11:55,985 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:11:55,985 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:11:55,985 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (GA)
+2026-02-20 03:11:55,985 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96698419
+2026-02-20 03:11:55,985 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96702047
+2026-02-20 03:11:55,991 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96709039
+2026-02-20 03:11:55,991 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96741053
+2026-02-20 03:11:55,991 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (A)
+2026-02-20 03:11:55,994 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (C)
+2026-02-20 03:11:55,995 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (T)
+2026-02-20 03:11:55,995 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:11:55,995 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42522613
+2026-02-20 03:11:56,000 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42523805
+2026-02-20 03:11:56,000 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524175
+2026-02-20 03:11:56,000 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524947
+2026-02-20 03:11:56,000 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42525035
+2026-02-20 03:11:56,314 INFO o.p.p.p.Phenotyper [Phenotyper.java:173] Writing Phenotyper JSON to C:\Users\ry981\Desktop\dummy001\PharmaGuard-AI\data\output\TC_P1_PATIENT_001_Normal.phenotype.json
+2026-02-20 03:15:29,815 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:15:29,829 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:15:29,841 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:15:29,841 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (GATGA)
+2026-02-20 03:15:29,845 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr1:97981395
+2026-02-20 03:15:29,845 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18130918
+2026-02-20 03:15:29,846 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18133885
+2026-02-20 03:15:29,846 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:15:29,846 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (G)
+2026-02-20 03:15:29,846 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:15:29,846 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:15:29,846 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (GA)
+2026-02-20 03:15:29,850 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96698419
+2026-02-20 03:15:29,851 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96702047
+2026-02-20 03:15:29,851 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96709039
+2026-02-20 03:15:29,851 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96741053
+2026-02-20 03:15:29,851 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (A)
+2026-02-20 03:15:29,851 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (C)
+2026-02-20 03:15:29,854 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (T)
+2026-02-20 03:15:29,855 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:15:29,855 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42522613
+2026-02-20 03:15:29,855 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42523805
+2026-02-20 03:15:29,858 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524175
+2026-02-20 03:15:29,858 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524947
+2026-02-20 03:15:29,858 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42525035
+2026-02-20 03:15:30,153 INFO o.p.p.p.Phenotyper [Phenotyper.java:173] Writing Phenotyper JSON to C:\Users\ry981\Desktop\dummy001\PharmaGuard-AI\data\output\TC_P1_PATIENT_001_Normal.phenotype.json
+2026-02-20 03:19:28,572 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:19:28,584 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:19:28,601 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:19:28,601 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (GATGA)
+2026-02-20 03:19:28,601 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr1:97981395
+2026-02-20 03:19:28,601 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18130918
+2026-02-20 03:19:28,601 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18133885
+2026-02-20 03:19:28,601 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:19:28,601 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (G)
+2026-02-20 03:19:28,601 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:19:28,601 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:19:28,601 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (GA)
+2026-02-20 03:19:28,608 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96698419
+2026-02-20 03:19:28,608 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96702047
+2026-02-20 03:19:28,608 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96709039
+2026-02-20 03:19:28,608 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96741053
+2026-02-20 03:19:28,611 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (A)
+2026-02-20 03:19:28,611 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (C)
+2026-02-20 03:19:28,611 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (T)
+2026-02-20 03:19:28,615 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:19:28,615 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42522613
+2026-02-20 03:19:28,615 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42523805
+2026-02-20 03:19:28,615 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524175
+2026-02-20 03:19:28,615 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524947
+2026-02-20 03:19:28,615 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42525035
+2026-02-20 03:19:28,900 INFO o.p.p.p.Phenotyper [Phenotyper.java:173] Writing Phenotyper JSON to C:\Users\ry981\Desktop\dummy001\PharmaGuard-AI\data\output\TC_P1_PATIENT_001_Normal.phenotype.json
+2026-02-20 03:23:15,012 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:23:15,024 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:23:15,036 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:23:15,037 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (GATGA)
+2026-02-20 03:23:15,038 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr1:97981395
+2026-02-20 03:23:15,039 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18130918
+2026-02-20 03:23:15,039 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18133885
+2026-02-20 03:23:15,040 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:23:15,042 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (G)
+2026-02-20 03:23:15,042 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:23:15,042 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:23:15,042 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (GA)
+2026-02-20 03:23:15,045 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96698419
+2026-02-20 03:23:15,045 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96702047
+2026-02-20 03:23:15,046 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96709039
+2026-02-20 03:23:15,048 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96741053
+2026-02-20 03:23:15,048 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (A)
+2026-02-20 03:23:15,049 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (C)
+2026-02-20 03:23:15,050 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (T)
+2026-02-20 03:23:15,054 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:23:15,055 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42522613
+2026-02-20 03:23:15,055 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42523805
+2026-02-20 03:23:15,056 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524175
+2026-02-20 03:23:15,056 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524947
+2026-02-20 03:23:15,057 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42525035
+2026-02-20 03:23:15,347 INFO o.p.p.p.Phenotyper [Phenotyper.java:173] Writing Phenotyper JSON to C:\Users\ry981\Desktop\dummy001\PharmaGuard-AI\data\output\TC_P1_PATIENT_001_Normal.phenotype.json
+2026-02-20 03:23:54,185 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:23:54,196 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:23:54,211 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:23:54,212 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (GATGA)
+2026-02-20 03:23:54,212 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr1:97981395
+2026-02-20 03:23:54,212 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18130918
+2026-02-20 03:23:54,212 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18133885
+2026-02-20 03:23:54,215 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:23:54,215 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (G)
+2026-02-20 03:23:54,215 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:23:54,215 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:23:54,215 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (GA)
+2026-02-20 03:23:54,220 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96698419
+2026-02-20 03:23:54,222 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96702047
+2026-02-20 03:23:54,222 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96709039
+2026-02-20 03:23:54,222 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96741053
+2026-02-20 03:23:54,222 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (A)
+2026-02-20 03:23:54,225 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (C)
+2026-02-20 03:23:54,225 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (T)
+2026-02-20 03:23:54,225 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:23:54,225 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42522613
+2026-02-20 03:23:54,231 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42523805
+2026-02-20 03:23:54,231 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524175
+2026-02-20 03:23:54,231 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524947
+2026-02-20 03:23:54,231 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42525035
+2026-02-20 03:23:54,522 INFO o.p.p.p.Phenotyper [Phenotyper.java:173] Writing Phenotyper JSON to C:\Users\ry981\Desktop\dummy001\PharmaGuard-AI\data\output\TC_P1_PATIENT_001_Normal.phenotype.json
+2026-02-20 03:28:18,191 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:28:18,203 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:28:18,215 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:28:18,215 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (GATGA)
+2026-02-20 03:28:18,217 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr1:97981395
+2026-02-20 03:28:18,217 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18130918
+2026-02-20 03:28:18,217 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18133885
+2026-02-20 03:28:18,219 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:28:18,221 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (G)
+2026-02-20 03:28:18,222 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:28:18,222 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:28:18,222 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (GA)
+2026-02-20 03:28:18,222 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96698419
+2026-02-20 03:28:18,222 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96702047
+2026-02-20 03:28:18,222 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96709039
+2026-02-20 03:28:18,226 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96741053
+2026-02-20 03:28:18,226 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (A)
+2026-02-20 03:28:18,226 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (C)
+2026-02-20 03:28:18,226 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (T)
+2026-02-20 03:28:18,231 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:28:18,231 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42522613
+2026-02-20 03:28:18,231 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42523805
+2026-02-20 03:28:18,231 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524175
+2026-02-20 03:28:18,231 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524947
+2026-02-20 03:28:18,234 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42525035
+2026-02-20 03:28:18,559 INFO o.p.p.p.Phenotyper [Phenotyper.java:173] Writing Phenotyper JSON to C:\Users\ry981\Desktop\dummy001\PharmaGuard-AI\data\output\TC_P1_PATIENT_001_Normal.phenotype.json
+2026-02-20 03:29:42,111 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:29:42,123 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:29:42,133 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:29:42,141 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (GATGA)
+2026-02-20 03:29:42,141 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr1:97981395
+2026-02-20 03:29:42,143 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18130918
+2026-02-20 03:29:42,143 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18133885
+2026-02-20 03:29:42,143 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:29:42,146 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (G)
+2026-02-20 03:29:42,147 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:29:42,147 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:29:42,147 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (GA)
+2026-02-20 03:29:42,147 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96698419
+2026-02-20 03:29:42,149 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96702047
+2026-02-20 03:29:42,150 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96709039
+2026-02-20 03:29:42,151 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96741053
+2026-02-20 03:29:42,151 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (A)
+2026-02-20 03:29:42,151 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (C)
+2026-02-20 03:29:42,151 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (T)
+2026-02-20 03:29:42,151 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:29:42,151 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42522613
+2026-02-20 03:29:42,157 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42523805
+2026-02-20 03:29:42,159 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524175
+2026-02-20 03:29:42,159 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524947
+2026-02-20 03:29:42,160 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42525035
+2026-02-20 03:29:42,453 INFO o.p.p.p.Phenotyper [Phenotyper.java:173] Writing Phenotyper JSON to C:\Users\ry981\Desktop\dummy001\PharmaGuard-AI\data\output\TC_P1_PATIENT_001_Normal.phenotype.json
+2026-02-20 03:33:27,991 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:33:28,004 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:33:28,022 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:33:28,022 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (GATGA)
+2026-02-20 03:33:28,022 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr1:97981395
+2026-02-20 03:33:28,022 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18130918
+2026-02-20 03:33:28,022 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18133885
+2026-02-20 03:33:28,022 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:33:28,022 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (G)
+2026-02-20 03:33:28,022 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:33:28,022 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:33:28,028 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (GA)
+2026-02-20 03:33:28,028 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96698419
+2026-02-20 03:33:28,028 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96702047
+2026-02-20 03:33:28,028 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96709039
+2026-02-20 03:33:28,031 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96741053
+2026-02-20 03:33:28,032 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (A)
+2026-02-20 03:33:28,032 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (C)
+2026-02-20 03:33:28,032 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (T)
+2026-02-20 03:33:28,032 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:33:28,032 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42522613
+2026-02-20 03:33:28,032 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42523805
+2026-02-20 03:33:28,037 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524175
+2026-02-20 03:33:28,037 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524947
+2026-02-20 03:33:28,037 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42525035
+2026-02-20 03:33:28,336 INFO o.p.p.p.Phenotyper [Phenotyper.java:173] Writing Phenotyper JSON to C:\Users\ry981\Desktop\dummy001\PharmaGuard-AI\data\output\TC_P1_PATIENT_001_Normal.phenotype.json
+2026-02-20 03:40:29,842 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:40:29,853 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:40:29,865 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:40:29,865 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (GATGA)
+2026-02-20 03:40:29,865 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr1:97981395
+2026-02-20 03:40:29,865 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18130918
+2026-02-20 03:40:29,865 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18133885
+2026-02-20 03:40:29,869 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:40:29,870 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (G)
+2026-02-20 03:40:29,871 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:40:29,871 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:40:29,871 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (GA)
+2026-02-20 03:40:29,871 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96698419
+2026-02-20 03:40:29,871 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96702047
+2026-02-20 03:40:29,871 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96709039
+2026-02-20 03:40:29,875 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96741053
+2026-02-20 03:40:29,876 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (A)
+2026-02-20 03:40:29,876 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (C)
+2026-02-20 03:40:29,876 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (T)
+2026-02-20 03:40:29,876 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:40:29,882 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42522613
+2026-02-20 03:40:29,882 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42523805
+2026-02-20 03:40:29,882 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524175
+2026-02-20 03:40:29,882 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524947
+2026-02-20 03:40:29,882 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42525035
+2026-02-20 03:40:30,172 INFO o.p.p.p.Phenotyper [Phenotyper.java:173] Writing Phenotyper JSON to C:\Users\ry981\Desktop\dummy001\PharmaGuard-AI\data\output\TC_P1_PATIENT_001_Normal.phenotype.json
+2026-02-20 03:41:24,915 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:41:24,930 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:41:24,942 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:41:24,946 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (GATGA)
+2026-02-20 03:41:24,947 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr1:97981395
+2026-02-20 03:41:24,947 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18130918
+2026-02-20 03:41:24,947 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18133885
+2026-02-20 03:41:24,947 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:41:24,950 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (G)
+2026-02-20 03:41:24,952 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:41:24,952 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:41:24,952 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (GA)
+2026-02-20 03:41:24,952 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96698419
+2026-02-20 03:41:24,952 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96702047
+2026-02-20 03:41:24,952 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96709039
+2026-02-20 03:41:24,954 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96741053
+2026-02-20 03:41:24,955 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (A)
+2026-02-20 03:41:24,955 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (C)
+2026-02-20 03:41:24,955 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (T)
+2026-02-20 03:41:24,958 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:41:24,958 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42522613
+2026-02-20 03:41:24,958 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42523805
+2026-02-20 03:41:24,961 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524175
+2026-02-20 03:41:24,962 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524947
+2026-02-20 03:41:24,962 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42525035
+2026-02-20 03:41:25,287 INFO o.p.p.p.Phenotyper [Phenotyper.java:173] Writing Phenotyper JSON to C:\Users\ry981\Desktop\dummy001\PharmaGuard-AI\data\output\TC_P1_PATIENT_001_Normal.phenotype.json
+2026-02-20 03:42:05,065 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:42:05,080 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:42:05,094 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:42:05,095 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (GATGA)
+2026-02-20 03:42:05,095 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr1:97981395
+2026-02-20 03:42:05,095 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18130918
+2026-02-20 03:42:05,097 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18133885
+2026-02-20 03:42:05,097 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:42:05,100 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (G)
+2026-02-20 03:42:05,101 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:42:05,102 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:42:05,102 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (GA)
+2026-02-20 03:42:05,103 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96698419
+2026-02-20 03:42:05,104 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96702047
+2026-02-20 03:42:05,104 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96709039
+2026-02-20 03:42:05,105 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96741053
+2026-02-20 03:42:05,106 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (A)
+2026-02-20 03:42:05,106 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (C)
+2026-02-20 03:42:05,106 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (T)
+2026-02-20 03:42:05,112 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:42:05,112 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42522613
+2026-02-20 03:42:05,112 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42523805
+2026-02-20 03:42:05,114 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524175
+2026-02-20 03:42:05,115 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524947
+2026-02-20 03:42:05,115 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42525035
+2026-02-20 03:42:05,423 INFO o.p.p.p.Phenotyper [Phenotyper.java:173] Writing Phenotyper JSON to C:\Users\ry981\Desktop\dummy001\PharmaGuard-AI\data\output\TC_P1_PATIENT_001_Normal.phenotype.json
+2026-02-20 03:49:29,015 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:49:29,025 WARN o.p.p.v.VcfParser [VcfParser.java:109] There are 1 samples in the header but 0 in the metadata
+2026-02-20 03:49:29,041 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:49:29,042 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (GATGA)
+2026-02-20 03:49:29,043 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr1:97981395
+2026-02-20 03:49:29,043 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18130918
+2026-02-20 03:49:29,043 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr6:18133885
+2026-02-20 03:49:29,046 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (C)
+2026-02-20 03:49:29,046 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (G)
+2026-02-20 03:49:29,050 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:49:29,052 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:49:29,052 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (GA)
+2026-02-20 03:49:29,052 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96698419
+2026-02-20 03:49:29,055 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96702047
+2026-02-20 03:49:29,055 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96709039
+2026-02-20 03:49:29,058 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr10:96741053
+2026-02-20 03:49:29,060 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (T) does not match expected reference (A)
+2026-02-20 03:49:29,061 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (A) does not match expected reference (C)
+2026-02-20 03:49:29,062 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (C) does not match expected reference (T)
+2026-02-20 03:49:29,067 WARN o.p.p.h.VcfReader [VcfReader.java:251] Discarded genotype at this position because REF in VCF (G) does not match expected reference (C)
+2026-02-20 03:49:29,067 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42522613
+2026-02-20 03:49:29,070 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42523805
+2026-02-20 03:49:29,072 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524175
+2026-02-20 03:49:29,072 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42524947
+2026-02-20 03:49:29,072 WARN o.p.p.h.VcfReader [VcfReader.java:285] Ignoring chr22:42525035
+2026-02-20 03:49:29,385 INFO o.p.p.p.Phenotyper [Phenotyper.java:173] Writing Phenotyper JSON to C:\Users\ry981\Desktop\dummy001\PharmaGuard-AI\data\output\TC_P1_PATIENT_001_Normal.phenotype.json
