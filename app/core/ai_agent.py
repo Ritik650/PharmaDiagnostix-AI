@@ -2,24 +2,20 @@ import os
 import google.generativeai as genai
 from dotenv import load_dotenv
 
-# This is the magic line that connects Python directly to your .env file!
+# 1. Load the .env file
 load_dotenv()
 
-# 1. Load your 5 keys safely from the .env file
-API_KEYS = [
-    os.getenv("GEMINI_KEY_1", ""),
-    os.getenv("GEMINI_KEY_2", ""),
-    os.getenv("GEMINI_KEY_3", ""),
-    os.getenv("GEMINI_KEY_4", ""),
-    os.getenv("GEMINI_KEY_5", "")
-]
+# 2. Get the single API key
+# Emergency Hackathon Tip: If the .env file is being stubborn, 
+# just replace the os.getenv(...) line with your actual key in quotes like:
+# API_KEY = "AIzaSyYourRealKeyHere..."
+API_KEY = os.getenv("GEMINI_API_KEY", "PASTE_YOUR_API_KEY_HERE")
 
-# Keep track of which key is currently active
-current_key_index = 0
+# Configure the SDK once
+genai.configure(api_key=API_KEY)
 
 async def generate_clinical_narrative(drug: str, gene: str, phenotype: str, risk_label: str) -> str:
-    """Uses Med-Gemma 1.5 with a 5-key automatic fallback system to prevent rate-limit crashes."""
-    global current_key_index
+    """Uses Med-Gemma 1.5 to generate the clinical explanation using a single key."""
     
     prompt = (
         f"Act as an expert Clinical Pharmacogeneticist. "
@@ -29,28 +25,11 @@ async def generate_clinical_narrative(drug: str, gene: str, phenotype: str, risk
         f"and what it means for the patient's treatment."
     )
 
-    # 2. Try up to 5 times (once for each key)
-    for _ in range(len(API_KEYS)):
-        try:
-            # Check if the current key is actually loaded
-            active_key = API_KEYS[current_key_index]
-            if not active_key:
-                raise ValueError("Empty API Key")
-
-            # Configure the SDK with the current key
-            genai.configure(api_key=active_key)
-            model = genai.GenerativeModel('gemini-2.5-flash')
+    try:
+        model = genai.GenerativeModel('gemini-2.5-flash')
+        response = await model.generate_content_async(prompt)
+        return response.text
             
-            # Attempt to generate the response
-            response = await model.generate_content_async(prompt)
-            return response.text
-            
-        except Exception as e:
-            print(f"⚠️ API Key {current_key_index + 1} failed or hit limit: {e}")
-            
-            # 3. If it fails, rotate to the next key in the list
-            current_key_index = (current_key_index + 1) % len(API_KEYS)
-            print(f"🔄 Switching to API Key {current_key_index + 1}...")
-
-    # If all 5 keys fail
-    return "Clinical Narrative Unavailable: High server traffic. Please refer to the calculated risk severity above and consult CPIC guidelines directly."
+    except Exception as e:
+        print(f"⚠️ AI Generation Error: {e}")
+        return "Clinical Narrative Unavailable: Please refer to the calculated risk severity above and consult CPIC guidelines directly."
