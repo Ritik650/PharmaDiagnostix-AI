@@ -35,7 +35,13 @@ To ensure 100% accuracy during live demos, PharmaDiagnostix uses a dual-engine a
 1. **Primary Engine (PharmCAT):** Executes the official Java-based pipeline to match full-genome data against the PharmGKB database.
 2. **Rescue Parser (Python):** If the input VCF is sparse (common in hackathons), our custom Python logic scans for specific `rsID` genotypes and calculates the **Star Allele Diplotype** (e.g., `*1/*2`) manually.
 
+
+Team Members:-
 ---
+Koustav Karmakar
+Manish
+Ritik Yadav
+
 
 ## 💻 Local Setup & Installation
 
