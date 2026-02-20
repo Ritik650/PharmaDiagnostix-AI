@@ -87,7 +87,7 @@ if uploaded_file and st.button("🚀 Execute AI Risk Assessment", type="primary"
             report_path = run_pharmcat_pipeline(vcf_path)
             phenotype = extract_gene_phenotype(report_path, gene)
             risk, severity, confidence = assess_risk(phenotype)
-            explanation = asyncio.run(generate_clinical_narrative(drug, gene, phenotype, risk))
+            explanation = generate_clinical_narrative(drug, gene, phenotype, risk)
             
             # Mock the API result dictionary so the UI doesn't have to change
             result = {
@@ -168,4 +168,5 @@ CLINICAL NARRATIVE:
                 )
                 
         except Exception as e:
+
             st.error(f"Engine Execution Failed. Error: {e}")
