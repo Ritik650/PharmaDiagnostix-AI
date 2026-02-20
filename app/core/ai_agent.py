@@ -20,9 +20,10 @@ def generate_clinical_narrative(drug: str, gene: str, phenotype: str, risk_label
     )
     try:
         response = client.models.generate_content(
-            model='gemini-2.0-flash',
+            model='gemini-2.5-flash',
             contents=prompt
         )
         return response.text
     except Exception as e:
         return f"Clinical Narrative Unavailable: {str(e)}"
+
