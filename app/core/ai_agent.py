@@ -1,21 +1,18 @@
 import os
-import google.generativeai as genai
+from google import genai
 from dotenv import load_dotenv
 
-# 1. Load the .env file
+# Connect to .env
 load_dotenv()
 
-# 2. Get the single API key
-# Emergency Hackathon Tip: If the .env file is being stubborn, 
-# just replace the os.getenv(...) line with your actual key in quotes like:
-# API_KEY = "AIzaSyYourRealKeyHere..."
+# Get the single API key
 API_KEY = os.getenv("GEMINI_API_KEY", "PASTE_YOUR_API_KEY_HERE")
 
-# Configure the SDK once
-genai.configure(api_key=API_KEY)
+# Initialize the NEW SDK client (Synchronous)
+client = genai.Client(api_key=API_KEY)
 
-async def generate_clinical_narrative(drug: str, gene: str, phenotype: str, risk_label: str) -> str:
-    """Uses Med-Gemma 1.5 to generate the clinical explanation using a single key."""
+def generate_clinical_narrative(drug: str, gene: str, phenotype: str, risk_label: str) -> str:
+    """Uses the new google-genai SDK for stable Streamlit deployment."""
     
     prompt = (
         f"Act as an expert Clinical Pharmacogeneticist. "
@@ -26,10 +23,13 @@ async def generate_clinical_narrative(drug: str, gene: str, phenotype: str, risk
     )
 
     try:
-        model = genai.GenerativeModel('gemini-2.5-flash')
-        response = await model.generate_content_async(prompt)
+        # Standard synchronous call - prevents the cloud threading crash
+        response = client.models.generate_content(
+            model='gemini-2.0-flash',
+            contents=prompt
+        )
         return response.text
             
     except Exception as e:
         print(f"⚠️ AI Generation Error: {e}")
-        return "Clinical Narrative Unavailable: Please refer to the calculated risk severity above and consult CPIC guidelines directly."
+        return "Clinical Narrative Unavailable: Please refer to the calculated risk severity above."
